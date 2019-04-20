@@ -1,0 +1,48 @@
+﻿<Properties StartupConfiguration="{02C4C860-7EBC-4207-A23E-95002BFAED93}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Vidly/Views/Customer/Index.cshtml">
+    <Files>
+      <File FileName="Vidly/Controllers/MoviesController.cs" Line="51" Column="12" />
+      <File FileName="Vidly/Views/Shared/_NavBar.cshtml" Line="15" Column="66" />
+      <File FileName="Vidly/Controllers/CustomerController.cs" Line="40" Column="43" />
+      <File FileName="Vidly/Views/Customer/Index.cshtml" Line="1" Column="1" />
+      <File FileName="Vidly/ViewModels/RandomMovieViewModel.cs" Line="13" Column="19" />
+      <File FileName="Vidly/Models/Customer.cs" Line="11" Column="41" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Vidly" expanded="True" selected="True">
+            <Node name="Vidly" expanded="True">
+              <Node name="App_Start" expanded="True" />
+              <Node name="Content" expanded="True">
+                <Node name="css" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Customer" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Movies" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="Global.asax" expanded="True" />
+            </Node>
+            <Node name="Vidly.Tests" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Vidly PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/developmentprofile/Projects/Vidly/Vidly/Controllers/CustomerController.cs" relfile="Vidly/Controllers/CustomerController.cs" line="32" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
