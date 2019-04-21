@@ -1,4 +1,6 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
+
 namespace Vidly.Models
 {
     public class Customer
@@ -8,6 +10,11 @@ namespace Vidly.Models
         }
 
         public int ID { get; set; }
+        [Required]
+        [StringLength(255)]
         public string Name { get; set; }
+        public bool isSubscribedToNewsLetter { get; set; }
+        public MembershipType MembershipType { get; set; }
+        public byte MembershipTypeID { get; set; }
     }
 }

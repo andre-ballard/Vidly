@@ -1,5 +1,5 @@
 ﻿
-@model Vidly.ViewModels.RandomMovieViewModel
+@model Vidly.Models.Customer
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -13,10 +13,10 @@
 
             <tr><th>Name</th></tr>
                 
-        @foreach(var obj in Model.customers)
+        @foreach(var obj in Model)
         {
             <tr>
-                <td>@Html.ActionLink(obj.ID, "GetCustomer", "Customer", new { id = obj.ID})</td>
+                <td>@Html.ActionLink(obj.Name, "GetCustomer", "Customer", new { id = obj.ID})</td>
             </tr>    
         }
                
