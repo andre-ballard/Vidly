@@ -61,3 +61,6 @@ C:\Users\andre\source\repos\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.addIsSu
 C:\Users\andre\source\repos\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.addMemberShipType.resources
 C:\Users\andre\source\repos\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resources
 C:\Users\andre\source\repos\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotations.resources
+C:\Users\andre\source\repos\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.addedmembershipname.resources
+C:\Users\andre\source\repos\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.addedbirthdayforcustomer.resources
+C:\Users\andre\source\repos\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.addingmovieinformation.resources

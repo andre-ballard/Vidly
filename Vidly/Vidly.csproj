@@ -117,12 +117,26 @@
     <Compile Include="Migrations\201904202342400_ApplyAnnotations.Designer.cs">
       <DependentUpon>201904202342400_ApplyAnnotations.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201904211453334_added membership name.cs" />
+    <Compile Include="Migrations\201904211453334_added membership name.Designer.cs">
+      <DependentUpon>201904211453334_added membership name.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904211508312_added birthday for customer.cs" />
+    <Compile Include="Migrations\201904211508312_added birthday for customer.Designer.cs">
+      <DependentUpon>201904211508312_added birthday for customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904211521380_adding movie information.cs" />
+    <Compile Include="Migrations\201904211521380_adding movie information.Designer.cs">
+      <DependentUpon>201904211521380_adding movie information.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="ViewModels\NewCustomerViewModel.cs" />
+    <Compile Include="ViewModels\NewMovieViewModel.cs" />
     <Compile Include="ViewModels\RandomMovieViewModel.cs" />
     <Compile Include="Controllers\CustomerController.cs" />
   </ItemGroup>
@@ -358,6 +372,10 @@
     <None Include="Scripts\jquery-1.10.2.min.map" />
     <None Include="Content\DataTables\swf\flashExport.swf" />
     <None Include="favicon.ico" />
+    <Content Include="Views\Movies\Movies.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
+    <Content Include="Views\Customer\New.cshtml" />
+    <Content Include="Views\Movies\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201904202225165_InitialModel.resx">
@@ -374,6 +392,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201904202342400_ApplyAnnotations.resx">
       <DependentUpon>201904202342400_ApplyAnnotations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904211453334_added membership name.resx">
+      <DependentUpon>201904211453334_added membership name.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904211508312_added birthday for customer.resx">
+      <DependentUpon>201904211508312_added birthday for customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904211521380_adding movie information.resx">
+      <DependentUpon>201904211521380_adding movie information.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

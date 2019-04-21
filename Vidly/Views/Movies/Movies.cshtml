@@ -1,0 +1,36 @@
+﻿@model Vidly.ViewModels.RandomMovieViewModel
+@{
+    ViewBag.Title = "Movies";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Movies</h2>
+<div>
+    @Html.ActionLink("Create", "Create")
+</div>
+<table>
+    <thead>
+        <tr>
+            <th>
+                Movie
+            </th>
+            <th>
+                Genre
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var obj in Model.movie)
+        {
+            <tr>
+                <td>
+                   @Html.ActionLink(@obj.Name, "Details", new { id = obj.ID })
+                </td>
+                <td>
+                    @obj.Genre
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

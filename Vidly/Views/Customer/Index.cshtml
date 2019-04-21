@@ -1,5 +1,5 @@
 ﻿
-@model Vidly.Models.Customer
+@model Vidly.ViewModels.RandomMovieViewModel
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -8,17 +8,20 @@
 @{ 
     <table ="table table-bordered table-hover">
         <thead>
-            All Customers
+            <tr>
+                <th>Name</th>
+                <th>Membership Type </th>
+            </tr>
         </thead>
-
-            <tr><th>Name</th></tr>
-                
-        @foreach(var obj in Model)
+                <tbody>
+        @foreach(var obj in Model.customers)
         {
             <tr>
-                <td>@Html.ActionLink(obj.Name, "GetCustomer", "Customer", new { id = obj.ID})</td>
+                <td>@Html.ActionLink(obj.Name, "Edit", new { id = obj.ID})</td>
+                <td>@obj.MembershipType.Name</td>
             </tr>    
         }
+                    </tbody>
                
     </table>
 }

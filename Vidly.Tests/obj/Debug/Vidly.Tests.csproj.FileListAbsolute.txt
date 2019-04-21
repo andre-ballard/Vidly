@@ -50,3 +50,6 @@ C:\Users\andre\source\repos\Vidly\Vidly\Vidly.Tests\obj\Debug\Vidly.Tests.csproj
 C:\Users\andre\source\repos\Vidly\Vidly\Vidly.Tests\obj\Debug\Vidly.Tests.csproj.CoreCompileInputs.cache
 C:\Users\andre\source\repos\Vidly\Vidly\Vidly.Tests\obj\Debug\Vidly.Tests.dll
 C:\Users\andre\source\repos\Vidly\Vidly\Vidly.Tests\obj\Debug\Vidly.Tests.pdb
+C:\Users\andre\source\repos\Vidly\Vidly\Vidly.Tests\bin\Debug\Vidly.Tests.dll.config
+C:\Users\andre\source\repos\Vidly\Vidly\Vidly.Tests\bin\Debug\EntityFramework.dll
+C:\Users\andre\source\repos\Vidly\Vidly\Vidly.Tests\bin\Debug\EntityFramework.xml
